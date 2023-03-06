@@ -19,15 +19,15 @@ export default function App() {
     </li>
     <br/><hr/><br/>
     <li class="nav-item">
-      <a class="nav-link" href="../Resources">Resources</a>
+      <a class="nav-link" href="./components/Resources">Resources</a>
     </li>
     <br/><hr/><br/>
     <li class="nav-item">
-      <a  class="nav-link" href="../Assignments">Assignments</a>
+      <a  class="nav-link" href="./components/Assignments">Assignments</a>
     </li>
     <br/><hr/><br/>
     <li class="nav-item">
-      <a class="nav-link disabled" href="../GradeCards">Grade Cards</a>
+      <a class="nav-link disabled" href="./components/GradeCards">Grade Cards</a>
     </li>
     <br/><hr/><br/>
     <li class="nav-item">
@@ -39,7 +39,7 @@ export default function App() {
     </li>
     <br/><hr/><br/>
     <li class="nav-item">
-      <a class="nav-link disabled" href="../CourseInfo">Course Info</a>
+      <a class="nav-link disabled" href="./components/CourseInfo">Course Info</a>
     </li> 
     <br/><br/>
     </ul>

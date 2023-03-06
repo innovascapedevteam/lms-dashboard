@@ -19,7 +19,6 @@ body {
 }
 
 
-
 /* NAVBAR WITH HEADING */
 .heading-bar{
 background-color: #441259;
@@ -160,7 +159,7 @@ left:10px;
 /* VERTICAL LINE TO MENU */
 #v1{
     border-left: 0.5px solid black;
-    height: 490px;
+    height: 500px;
     position:relative;
     left:160px;
     bottom:515px;
