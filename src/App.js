@@ -1,8 +1,8 @@
 import React from 'react';
 import './index.css';
+
 export default function App() {
   return (
-
     // NAVBAR
     <div>
       <div className='heading-bar'>
@@ -15,19 +15,19 @@ export default function App() {
         <ul className='menu-list' class="nav flex-column">
         <br/><br/>
     <li class="nav-item">
-      <a class="nav-link active" href="./App.js">Course Overview</a>
+      <a class="nav-link active" href="./App">Course Overview</a>
     </li>
     <br/><hr/><br/>
     <li class="nav-item">
-      <a class="nav-link" href="./Resources.js">Resources</a>
+      <a class="nav-link" href="../Resources">Resources</a>
     </li>
     <br/><hr/><br/>
     <li class="nav-item">
-      <a  class="nav-link" href="./Assignments.js">Assignments</a>
+      <a  class="nav-link" href="../Assignments">Assignments</a>
     </li>
     <br/><hr/><br/>
     <li class="nav-item">
-      <a class="nav-link disabled" href="./GradeCards.js">Grade Cards</a>
+      <a class="nav-link disabled" href="../GradeCards">Grade Cards</a>
     </li>
     <br/><hr/><br/>
     <li class="nav-item">
@@ -39,7 +39,7 @@ export default function App() {
     </li>
     <br/><hr/><br/>
     <li class="nav-item">
-      <a class="nav-link disabled" href="./CourseInfo.js">Course Info</a>
+      <a class="nav-link disabled" href="../CourseInfo">Course Info</a>
     </li> 
     <br/><br/>
     </ul>
@@ -80,7 +80,7 @@ export default function App() {
     <h3> Roadmap</h3>
     <p>Create your own roadmap by setting milestones and goals.</p>
     <button className='roadmap-btn'>Roadmap</button>
-    <button className='level-btn' id=".bg-success" >Go To The Levels</button>
+    <button className='level-btn' id=".bg-success">Go To The Levels</button>
     </div>
     </div>
     </div>
